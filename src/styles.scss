@@ -3,11 +3,10 @@
 
 @font-face {
   font-family: 'CardenioModernBold';
-  src: url('/static/ressources/fonts/Cardenio-Modern-Bold/CardenioModernBold.ttf');
+  src: url('../static/ressources/fonts/Cardenio-Modern-Bold/CardenioModernBold.ttf');
 }
 
 // colors palette from: https://www.canva.com/colors/color-palettes/water-foam/
-$background-image: url(static/ressources/background2.jpg);
 $rose-1: #f9f1f0;
 $rose-2: #FADCD9;
 $rose-3: #F8AFA6;
@@ -90,7 +89,6 @@ a {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url(../static/ressources/scores/jesseSelland-183-1-2.jpg);
 }
 
 .carousel {
